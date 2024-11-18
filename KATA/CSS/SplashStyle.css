@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+
+.container {
+    width: 100%;
+    max-width: 412px;
+    height: 917px;
+    background-color: #FFD700; /* Fondo amarillo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000;
+}
